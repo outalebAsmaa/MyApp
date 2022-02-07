@@ -12,9 +12,6 @@ import { ProfileComponent } from './profile/profile.component';
 import { SignupComponent } from './signup/signup.component';
 import { TransactionComponent } from './transaction/transaction.component';
 import { WalletConnectComponent } from './wallet-connect/wallet-connect.component';
-import { BoardUserComponent } from './board-user/board-user.component';
-import { BoardAdminComponent } from './board-admin/board-admin.component';
-
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'transactions', component: TransactionComponent},
@@ -28,8 +25,6 @@ const routes: Routes = [
   {path: 'profile', component: ProfileComponent},
   {path: 'createItem', component: CreateItemComponent},
   {path: 'profileDetails', component: ProfileDetailsComponent},
-  { path: 'user', component: BoardUserComponent },
-  { path: 'admin', component: BoardAdminComponent }
 ];
 
 @NgModule({

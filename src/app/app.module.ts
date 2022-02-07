@@ -23,8 +23,6 @@ import { SignupComponent } from './signup/signup.component';
 import { TransactionComponent } from './transaction/transaction.component';
 import { WalletConnectComponent } from './wallet-connect/wallet-connect.component';
 import { authInterceptorProviders } from './_helpers/auth.interceptor';
-import { BoardAdminComponent } from './board-admin/board-admin.component';
-import { BoardUserComponent } from './board-user/board-user.component';
 
 @NgModule({
   declarations: [
@@ -35,8 +33,6 @@ import { BoardUserComponent } from './board-user/board-user.component';
     CategoryComponent,
     ContactUsComponent,
     CreateItemComponent,
-    BoardAdminComponent,
-    BoardUserComponent,
     FaqComponent,
     FooterComponent,
     HelpCenterComponent,
@@ -48,9 +44,7 @@ import { BoardUserComponent } from './board-user/board-user.component';
     ProfileDetailsComponent,
     SignupComponent,
     TransactionComponent,
-    WalletConnectComponent,
-    BoardAdminComponent,
-    BoardUserComponent
+    WalletConnectComponent
   ],
   imports: [
     BrowserModule,
